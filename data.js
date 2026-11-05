@@ -37,6 +37,26 @@ window.PORTFOLIO = {
       ],
       "date": "2026-10",
       "metrics": []
+    },
+    {
+      "slug": "tve-cac40",
+      "title": "Risque de krach boursier : théorie des valeurs extrêmes (CAC 40)",
+      "category": "Risk Management",
+      "summary": "Modélisation des pertes extrêmes du CAC 40 par la méthode POT et la loi de Pareto généralisée, pour estimer VaR et Expected Shortfall là où les modèles gaussiens sous-estiment le risque.",
+      "tags": [
+        "Python",
+        "EVT",
+        "POT",
+        "GPD",
+        "VaR",
+        "Expected Shortfall"
+      ],
+      "date": "2026-10",
+      "metrics": [
+        { "label": "VaR 99% EVT", "value": "3,09%" },
+        { "label": "ES 99% EVT", "value": "4,83%" },
+        { "label": "Forme ξ", "value": "0,32" }
+      ]
     }
   ]
 };
