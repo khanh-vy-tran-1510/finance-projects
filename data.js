@@ -49,13 +49,23 @@ window.PORTFOLIO = {
         "POT",
         "GPD",
         "VaR",
-        "Expected Shortfall"
+        "Expected Shortfall",
+        "CAC 40"
       ],
-      "date": "2026-10",
+      "date": "2026-11",
       "metrics": [
-        { "label": "VaR 99% EVT", "value": "3,09%" },
-        { "label": "ES 99% EVT", "value": "4,83%" },
-        { "label": "Forme ξ", "value": "0,32" }
+        {
+          "label": "VaR 99% EVT",
+          "value": "3,09%"
+        },
+        {
+          "label": "ES 99% EVT",
+          "value": "4,83%"
+        },
+        {
+          "label": "Forme ξ",
+          "value": "0,32"
+        }
       ]
     }
   ]
